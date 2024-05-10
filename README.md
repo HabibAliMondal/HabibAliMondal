@@ -1,3 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .container{
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(135deg, rgb(99, 98, 98), rgb(0, 0, 0));
+    }
+    svg{
+        height: 120px;
+        width: 120px;
+    }
+    .logo{
+      display: flex;
+      justify-content: center;
+    }
+        svg:hover{
+         filter: drop-shadow(0 0 2em #0e7caf);
+        }
+        
+        @keyframes svg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3000deg);
+  }
+}
+svg{
+    animation: svg infinite  20s linear  ;
+    /* animation: 3s linear 1s infinite; */
+
+  }
+  .box-text{
+    color: #77d0fa;
+  }
+
+</style>
+</head>
+<body>
+  
+
+
 <style>
     h1{
         justify-content: center;
@@ -49,3 +101,5 @@ svg{
         <h1 class="box-text">A Professional React Developer</h1>
     </div>
 </main>
+</body>
+</html>
